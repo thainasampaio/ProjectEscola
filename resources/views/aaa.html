@@ -1,0 +1,44 @@
+<div id="ModalCad" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Title</h5>
+            <button type="button" id="cls_modal" class="close" data-dismiss="modal">&times;</button>
+          </div>
+        <div class="modal-body">
+      <div class="col">
+        <div class="card" >
+          <div class="card-header">
+            <span>Adicionar novos alunos</span>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="frm_nome">Nome</label>
+              <input type="text" class="form-control" id="frm_nome" placeholder="Coloque o nome">
+            </div>
+            <div class="form-group">
+              <label for="frm_telefone">Telefone</label>
+              <input type="tel" class="form-control" id="frm_telefone" placeholder="(85) 9 9999-9999">
+            </div><div class="form-group">
+            <label for="frm_email">E-mail</label>
+            <input type="email" class="form-control" id="frm_email" placeholder="exemplo@gmail.com">
+          </div>
+          <div class="input-group">
+          <span class="input-group-text">Genero</span>
+              <label for="contactChoice1">Masculino</label>
+              <input class="form-check-input" checked type="radio" name="frm_genero" id="contactChoice1" name="contact" value="M">
+              <label for="contactChoice2">Feminino</label>
+              <input class="form-check-input" type="radio" name="frm_genero" id="contactChoice2" name="contact" value="F">
+              <label for="contactChoice3">Outros</label>
+              <input class="form-check-input" type="radio" name="frm_genero" id="contactChoice3" name="contact" value="O">
+          </div>
+          <div class="form-group">
+            <label for="desc">Descrição</label>
+            <input type="text" class="form-control" id="frm_desc" placeholder="avião">
+          </div>
+          <div class="form-group">
+            <input type="text" id="frm_date"class="form-control datepicker" placeholder="Select Date"/>
+          </div>
+    <button type="submit" id="addAluno" class="btn btn-primary">Adicionar</button>
+    <button type="submit" id="updateAluno" class="btn btn-primary">Editar</button>
+</div>
